@@ -1,4 +1,4 @@
-import Navbar from "../../Navbar/Navbar";
+// import Navbar from "../../Navbar/Navbar";
 import Plus from "../../Patterns/Plus";
 import TorusKnot from "../../TorusKnot/TorusKnot";
 
