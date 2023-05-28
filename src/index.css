@@ -37,9 +37,9 @@
   src: url("./assets/Poppins-Thin.ttf");
 }
 
-/* ::-webkit-scrollbar {
+::-webkit-scrollbar {
   display: none;
-} */
+}
 
 body {
   position: absolute;
