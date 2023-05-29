@@ -9,6 +9,9 @@ const Home = () => {
       id="home"
     >
       {/* <Navbar /> */}
+      <p className="md:hidden flex absolute top-0 p-8 w-full text-center text-white/70 left-1/2 -translate-x-1/2">
+        Please, visit on desktop for better Experience
+      </p>
       <div className="relative w-full h-[40rem] py-10 flex justify-center lg:justify-between px-10 xl:px-32 items-center border-y border-white/25">
         <Plus className="absolute left-0 top-0" />
         <div className="flex flex-col justify-between w-full lg:w-20rem 2xl:w-[50rem] h-[16rem] gap-4 z-10">
