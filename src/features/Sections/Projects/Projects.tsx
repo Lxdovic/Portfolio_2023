@@ -37,7 +37,7 @@ const Projects = () => {
         Projects
       </h2>
 
-      <div id="panels-container" className="w-max h-screen flex">
+      <div id="panels-container" className="w-max min-h-screen h-max flex">
         <ProjectCard
           href="https://github.com/Lxdovic/FullTextSearchEngine"
           title="Rust Search Engine"
@@ -79,9 +79,6 @@ const Projects = () => {
               </span>
               <span className="bg-primary/80 px-4 rounded text-white/70">
                 Express
-              </span>
-              <span className="bg-primary/80 px-4 rounded text-white/70">
-                MongoDb
               </span>
             </>
           }
