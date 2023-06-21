@@ -2,7 +2,7 @@ import gsap from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
 import { useLayoutEffect } from "react";
 import ProjectCard from "./ProjectCard";
-import Dots from "../../Patterns/Dots";
+// import Dots from "../../Patterns/Dots";
 
 gsap.registerPlugin(ScrollTrigger);
 
