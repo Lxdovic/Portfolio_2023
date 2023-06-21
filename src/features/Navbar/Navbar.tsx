@@ -11,6 +11,10 @@ const sections = [
     id: "about",
   },
   {
+    title: "Skills",
+    id: "skills",
+  },
+  {
     title: "Projects",
     id: "projects",
   },

@@ -2,6 +2,8 @@ import gsap from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
 import { useLayoutEffect } from "react";
 import ProjectCard from "./ProjectCard";
+import Dots from "../../Patterns/Dots";
+
 gsap.registerPlugin(ScrollTrigger);
 
 const Projects = () => {
@@ -31,12 +33,13 @@ const Projects = () => {
   return (
     <div
       id="projects"
-      className="flex flex-col gap-10 w-screen overflow-hidden h-screen bg-darker py-32 px-6 md:px-10 xl:px-32"
+      className="flex flex-col gap-10 border-y border-white/25 w-screen overflow-hidden h-screen bg-darker py-32 px-6 md:px-10 xl:px-32"
     >
       <h2 className="relative lg:text-left w-full lg:h-32 text-white/90 text-4xl md:text-6xl 2xl:text-7xl font-['Poppins-Bold'] text-center z-10">
         Projects
       </h2>
 
+      {/* <Dots className="absolute opacity-20 top-0 left-0" /> */}
       <div id="panels-container" className="w-max min-h-screen h-max flex">
         <ProjectCard
           href="https://github.com/Lxdovic/FullTextSearchEngine"
